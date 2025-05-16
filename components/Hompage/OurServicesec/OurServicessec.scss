@@ -1,0 +1,23 @@
+.ourService__hoverEffect::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background: var(--mainColor);
+  z-index: 1;
+  transition: all 0.5s linear;
+}
+.ourService__hoverEffect:hover.ourService__hoverEffect::after {
+  width: 100%;
+  //   z-index: 1;
+}
+.ourService__hoverEffect:hover button {
+  background-color: var(--secondaryColor) !important;
+  //   z-index: 1;
+}
+.ourService__hoverEffect:hover button svg path {
+  fill: white !important;
+  //   z-index: 1;
+}

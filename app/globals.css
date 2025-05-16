@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "AzonixFont";
+  src: url('/fonts/Azonix.otf');
+}
+
+
+html.lenis,
+html.lenis body {
+height: auto;
+}
+
+.lenis.lenis-smooth {
+scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+pointer-events: none;
+}
+
+.mainFont {
+font-family: "Garamond", sans-serif;
+line-height: normal;
+}
+.secondaryFont {
+font-family: "Montserrat", sans-serif;
+}
+
+
+:root {
+/* fonts.. */
+--mainHeader-Font: "Aclonica";
+--subTextAndPara-Font: "Montserrat";
+--buttonText-Font: "Inter Tight";
+--Logo-Font:'AzonixFont';
+
+/* colors... */
+--mainColor: #dea93a;
+--mainColor2: #a97203;
+--secondaryColor: #1a1a1a;
+--secondaryColor2: #414651;
+--whiteColor: #e6e6e6;
+--whiteColor2: #ffffff;
+--border-color:#505050;
+}
+
+P{
+  font-family: var(--subTextAndPara-Font);
+}
+h1,h2,h3,h5,h6{
+font-family: var(--mainHeader-Font);
+}

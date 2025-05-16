@@ -1,0 +1,47 @@
+.homePage__herosecMainWrapper {
+  height: 500dvh;
+
+  position: relative;
+
+  .heroMain__contentWrapper {
+    position: sticky;
+    top: 0;
+    height: 100dvh;
+    background-color: var(--secondaryColor);
+    // background-color: var(--mainColor);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .introLogo__wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .herosec__allinoneText {
+        // font-family: var(--subTextAndPara-Font);
+        font-family: var(--Logo-Font);
+        padding: 8px 16px;
+        background-color: var(--mainColor);
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 500;
+    
+        margin-top: 3dvw;
+        color: var(--secondaryColor);
+      }
+
+      .introLogo__slideWrapper {
+        background: var(--secondaryColor);
+      }
+    }
+    .intro__outterWrapper {
+      background: var(--mainColor2);
+
+      .intro__innerWrapper {
+        background: var(--mainColor);
+      }
+    }
+  }
+}
